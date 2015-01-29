@@ -8,7 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   // Authentication
   this.route("login");
-  this.route("signin");
+  this.route("signup");
 
   // Resources
   this.resource("users", function() {});
