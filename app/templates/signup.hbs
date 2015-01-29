@@ -1,1 +1,10 @@
+{{link-to 'Back' 'index'}}
 <h1>Sign Up</h1>
+
+<form {{action 'createAccount' on='submit'}}>
+  {{input value=name placeholder="Full name"}}
+  {{input value=email placeholder="Email address" type="email"}}
+  {{input value=password placeholder="Password" type="password"}}
+  {{input value=passwordConfirmation placeholder="Password confirmation" type="password"}}
+  <button type="submit">Create Account</button>
+</form>
